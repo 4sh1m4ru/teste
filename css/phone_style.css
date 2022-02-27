@@ -18,7 +18,6 @@ header{
     padding-top: 0.3%;
     padding-bottom: 0.3%;
     background-color: gray;
-    display: flex;
     justify-content: center;
     flex-direction: row;
 }
