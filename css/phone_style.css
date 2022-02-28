@@ -4,7 +4,7 @@
 body{
     overflow-x: hidden;
     background-color: rgb(166, 167, 166);
-    margin: 0%;
+    margin: auto;
 }
 
 /* tous ce qui est en tete de page */
