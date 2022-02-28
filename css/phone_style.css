@@ -27,7 +27,7 @@ header{
 body{
     size: 100%;
     overflow-x: hidden;
-    background-color: rgb(166, 167, 166);
+    background-color: rgb(31, 226, 31);
     margin: 0%;
 }
 
@@ -100,7 +100,6 @@ header{
     margin-left: 2%;
     margin-top: -2.5%;
 }
-
 
 .logoinstru{
     width: 20%;
