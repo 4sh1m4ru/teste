@@ -3,7 +3,7 @@
 
 body{
     size: 100%;
-    background-color:rgb(105, 19, 62);
+    background-color:rgb(19, 59, 105);
 }
 header{
     size: 100%;
@@ -11,9 +11,15 @@ header{
     background-color: rgba(106, 172, 230, 0.192);
 }
 .logoinstru{
-    width: 50%;
+    width: 20%;
 }
 .icon{
-    width:40%;
+    width:20%;
+}
+.logoinstruadd{
+    width: 20%;
+}
+.map{
+    width: 20%;
 }
 }
