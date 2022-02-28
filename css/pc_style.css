@@ -1,4 +1,4 @@
-@media screen and (min-width: 1023px)
+@media screen and (min-width: 768px)
 {
 /* information tout en haut de la page */
 body{
@@ -83,7 +83,7 @@ header{
 .Wrapper{
     background-color: rgb(51, 51, 51);
     display: flex;
-    justify-content: right;
+    justify-content: center;
     padding-right: 6%;
     padding-left: 6%;
 }
