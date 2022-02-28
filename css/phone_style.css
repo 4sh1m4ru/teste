@@ -3,12 +3,17 @@
 
 body{
     size: 100%;
-    background-color:rgb(166, 194, 44);
+    background-color:rgb(105, 19, 62);
 }
 header{
     size: 100%;
     margin: 0;
     background-color: rgba(106, 172, 230, 0.192);
 }
-
+.logoinstru{
+    width: 50%;
+}
+.icon{
+    width:40%;
+}
 }
