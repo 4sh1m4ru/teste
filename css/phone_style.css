@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px)
 {
-/* information tout en haut de la page */
+/* information tout en haut de la page 
 body{
     overflow-x: hidden;
     background-color: rgb(166, 167, 166);
@@ -8,12 +8,12 @@ body{
     size-adjust: 100%;
 }
 
-/* tous ce qui est en tete de page */
+/* tous ce qui est en tete de page *
 header{
     margin: 0;
 }
 
-/* information tout en haut de la page */
+/* information tout en haut de la page *
 .flexinfo{
     height: 100%;
     padding-top: 0.3%;
@@ -31,14 +31,14 @@ header{
     margin-left: 1.3%;
 }
 
-/* Nom de l'école + background */
+/* Nom de l'école + background *
 .bandeau{
     display: flex;
     flex-direction: row;
     margin: 0;
     width: 100%;
     height: 400px;
-    /*background-image: url("../image/Bandeau1.jpg");*/
+    /*background-image: url("../image/Bandeau1.jpg");
     background-color: rgb(0, 255, 128);
     background-size: auto;
 }
@@ -79,7 +79,7 @@ header{
     
 }
 
-/* bar pour naviger rapidement sur la page */
+/* bar pour naviger rapidement sur la page *
 .Wrapper{
     background-color: rgb(51, 51, 51);
     display: flex;
@@ -116,7 +116,7 @@ nav li a:hover{
 
 }
 
-/* div Bloc */
+/* div Bloc *
 .Bloc{
     padding-top: 1%;
     margin: auto;
@@ -126,7 +126,7 @@ nav li a:hover{
     background-color: rgba(126, 126, 126, 0.753);
 }
 
-/* Mise en forme*/
+/* Mise en forme*
 .Mise_en_forme p{
         padding-bottom: 2%;
         margin-left: 3%;
@@ -136,13 +136,13 @@ nav li a:hover{
     text-align: center;
 }
 
-/* div projet */
+/* div projet *
 .Projet{
     height: 100%;
     width: 100%;
 }
 
-/* div instrument */
+/* div instrument *
 .Instrument{
     padding-top: 5%;
     padding-bottom: 5%;
@@ -180,7 +180,7 @@ nav li a:hover{
 }
 
 
-/* Div description */
+/* Div description *
 .description{ 
     width: 90%;
     height: 100%;
@@ -230,7 +230,7 @@ nav li a:hover{
 }
 
 
-/* Bloc de  contact */
+/* Bloc de  contact *
 .contact{
     padding-top:  auto;
     padding-left: 5%;
@@ -238,7 +238,7 @@ nav li a:hover{
     margin-bottom: 4%;
 }
 
-/* Map */
+/* Map *
 .localisation{
     width: 70%;
     height: 50%;
@@ -250,7 +250,7 @@ nav li a:hover{
     margin-bottom: 5%;
 }
 
-/* Info */
+/* Info *
 .Info{
     width: 70%;
     height: 50%;
@@ -278,6 +278,12 @@ nav li a:hover{
 .Info .texte a{
     color: inherit;
     text-decoration: none;
+}*/
+body{
+    background-color:red;
 }
-
+header{
+    margin: 0;
+    background-color: rgba(106, 172, 230, 0.192);
+}
 }
