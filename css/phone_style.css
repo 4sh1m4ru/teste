@@ -49,7 +49,7 @@ header{
     height: 80px;
 }
 .special_logo{
-    margin-left: 10%;
+    margin-left: 2.5%;
 }
 .Bloc_bandeau{
     display: flex;
@@ -120,7 +120,24 @@ nav li a:hover{
     background-color: rgba(126, 126, 126, 0.753);
 }
 
+/* Mise en forme*/
+.Mise_en_forme{
+    font-size: large;
+}
+.Mise_en_forme p{
+        padding-bottom: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
+}
+.Mise_en_forme h2{
+    text-align: center;
+}
 
+/* div projet */
+.Projet{
+    height: 100%;
+    width: 100%;
+}
 
     
 .logoinstru{
