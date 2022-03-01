@@ -1,5 +1,12 @@
 @media screen and (max-width: 767px)
 {
+
+    .maintenance{
+        text-align: center;
+        color: red;
+        text-decoration: underline 3px;
+    }
+
     body{
         size: 100%;
         overflow-x: hidden;

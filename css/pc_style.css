@@ -1,286 +1,289 @@
 @media screen and (min-width: 768px)
 {
-/* information tout en haut de la page */
-body{
-    overflow-x: hidden;
-    background-color: rgb(166, 167, 166);
-    margin: 0%;
-}
 
-/* tous ce qui est en tete de page */
-header{
-    margin: 0;
-}
+    .maintenance{
+        text-align: center;
+        color: red;
+        text-decoration: underline 3px;
+    }
 
-/* information tout en haut de la page */
-.flexinfo{
-    height: 100%;
-    padding-top: 0.3%;
-    padding-bottom: 0.3%;
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-.flexinfo a{
-    display: block;
-    color: inherit;
-    text-decoration: none;
-}
-.flexinfo .info{
-    margin-left: 1.3%;
-}
+    body{
+        overflow-x: hidden;
+        background-color: rgb(166, 167, 166);
+        margin: 0%;
+    }
 
-/* Nom de l'école + background */
-.bandeau{
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    width: 100%;
-    height: 400px;
-    background-image: url("../image/Bandeau1.jpg");
-    background-color: rgb(0, 255, 128);
-    background-size: auto;
-}
-.Logo{
-    display: flex;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-}
-.special_logo{
-    margin-left: 10%;
-}
-.Bloc_bandeau{
-    display: flex;
-    width: 100;
-    height: 40%;
-    margin-left: 2%;
-    padding-top: 3%;
-    justify-content: left;
-}
-.fond_logo{
-    margin-top: 5%;
-    margin-left: 10%;
-    background-color: rgba(134, 134, 134, 0.37);
-    width: 60%;
-    height: 50%;
-}
-.Nom_bandeau{
-    margin-left: 2%;
-    width: 100%;
-    font-size: larger;  
-}
-.Slogan_bandeau{
-    font-size: small;
-    color: rgb(34, 34, 34);
-    margin-left: 2%;
-    margin-top: -2.5%;
-}
+    /* tous ce qui est en tete de page */
+    header{
+        margin: 0;
+    }
 
-/* bar pour naviger rapidement sur la page */
-.Wrapper{
-    background-color: rgb(51, 51, 51);
-    display: flex;
-    justify-content: center;
-    padding-right: 6%;
-    padding-left: 6%;
-}
-nav .menu{
-    width: 100%;
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    justify-content: center;
-}
-nav ul{
-    padding: 0;
-    margin:0;
-    font-size: larger;
-}
-nav li a{
-    display: block;
-    color: white;
-    font-size: 100%;
-    padding: 40px 100px;
-    text-decoration: none;
+    /* information tout en haut de la page */
+    .flexinfo{
+        height: 100%;
+        padding-top: 0.3%;
+        padding-bottom: 0.3%;
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .flexinfo a{
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+    .flexinfo .info{
+        margin-left: 1.3%;
+    }
 
-}
-nav li a:hover{
-    transition: 250ms;
-    font-size: 101%;
-    color: rgb(0, 255, 106);
-    background-color: rgba(112, 112, 112, 0.171);
+    /* Nom de l'école + background */
+    .bandeau{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        width: 100%;
+        height: 400px;
+        background-image: url("../image/Bandeau1.jpg");
+        background-color: rgb(0, 255, 128);
+        background-size: auto;
+    }
+    .Logo{
+        display: flex;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+    .special_logo{
+        margin-left: 10%;
+    }
+    .Bloc_bandeau{
+        display: flex;
+        width: 100;
+        height: 40%;
+        margin-left: 2%;
+        padding-top: 3%;
+        justify-content: left;
+    }
+    .fond_logo{
+        margin-top: 5%;
+        margin-left: 10%;
+        background-color: rgba(134, 134, 134, 0.37);
+        width: 60%;
+        height: 50%;
+    }
+    .Nom_bandeau{
+        margin-left: 2%;
+        width: 100%;
+        font-size: larger;  
+    }
+    .Slogan_bandeau{
+        font-size: small;
+        color: rgb(34, 34, 34);
+        margin-left: 2%;
+        margin-top: -2.5%;
+    }
 
-}
+    /* bar pour naviger rapidement sur la page */
+    .Wrapper{
+        background-color: rgb(51, 51, 51);
+        display: flex;
+        justify-content: center;
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    nav .menu{
+        width: 100%;
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        justify-content: center;
+    }
+    nav ul{
+        padding: 0;
+        margin:0;
+        font-size: larger;
+    }
+    nav li a{
+        display: block;
+        color: white;
+        font-size: 100%;
+        padding: 40px 100px;
+        text-decoration: none;
 
-/* div Bloc */
-.Bloc{
-    padding-top: 1%;
-    margin: auto;
-    margin-top: 2%;
-    width: 95%;
-    height: 100;
-    background-color: rgba(126, 126, 126, 0.753);
-}
+    }
+    nav li a:hover{
+        transition: 250ms;
+        font-size: 101%;
+        color: rgb(0, 255, 106);
+        background-color: rgba(112, 112, 112, 0.171);
 
-/* Mise en forme*/
-.Mise_en_forme{
-    font-size: large;
-}
-.Mise_en_forme p{
-    padding-bottom: 2%;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-.Mise_en_forme h2{
-    text-align: center;
-}
+    }
 
-/* div projet */
-.Projet{
-    height: 100%;
-    width: 100%;
-}
+    /* div Bloc */
+    .Bloc{
+        padding-top: 1%;
+        margin: auto;
+        margin-top: 2%;
+        width: 95%;
+        height: 100;
+        background-color: rgba(126, 126, 126, 0.753);
+    }
 
-/* div instrument */
-.Instrument{
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-.Instrument h2{
-    text-align: center;
-}
-.Instrument .logoinstru{
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 30%;
-    height: 30%;
-}
-.Instrument .logoinstruadd{
-    width: 5%;
-    height: 5%;
-}
-.Instrument .instruL1{
-    margin-right: 10%;
-    margin-left: 10%;
-    text-align: center;
-    display: flex ;
-}
-.Instrument .instruL3{
-    margin-right: 10%;
-    margin-left: 10%;
-    text-align: center;
-}
-.Instrument .instruL1 .partie{
-    height: 100%;
-    width: 50%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: large;
-}
+    /* Mise en forme*/
+    .Mise_en_forme{
+        font-size: large;
+    }
+    .Mise_en_forme p{
+        padding-bottom: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .Mise_en_forme h2{
+        text-align: center;
+    }
 
+    /* div projet */
+    .Projet{
+        height: 100%;
+        width: 100%;
+    }
 
-/* Div description */
-.description{ 
-    width: 90%;
-    height: 100%;
-    margin-left: 5%;
-    margin-right: 5%;  
-}
-.description_haut{
-    display: flex;
-}
-.description .Forme{
-    display: flex;
-    justify-content: center;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 45%;
-    background-color: rgba(163, 163, 163, 0.089);
-}
-.description .MisePage_haut{
-    width: 90%;
-    height: 100%;
-    margin-left: 5%;
-    margin-top: 5%;
-}
-.description .MisePage_haut .Image{
-    width: 33.33%;
-    height: 200px;
-    background-image: url("../image/Bandeau.jpg");
-    margin-left: 33.33%;
-}
-.description .MisePage_haut .zonetext{
-    margin-top: 2%;
-    margin-bottom: 3%;
-    display: flex;
-}
-.description .MisePage_haut .zonetext span{
-    text-align: left;
-    margin-left: 1%;
-}
-.description .MisePage_haut .zonetext p{
-    text-align: left;
-}
-.description .MisePage_haut .zonetext  a{
-    color: inherit;
-    text-decoration: none;
-}
+    /* div instrument */
+    .Instrument{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .Instrument h2{
+        text-align: center;
+    }
+    .Instrument .logoinstru{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 30%;
+        height: 30%;
+    }
+    .Instrument .logoinstruadd{
+        width: 5%;
+        height: 5%;
+    }
+    .Instrument .instruL1{
+        margin-right: 10%;
+        margin-left: 10%;
+        text-align: center;
+        display: flex ;
+    }
+    .Instrument .instruL3{
+        margin-right: 10%;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .Instrument .instruL1 .partie{
+        height: 100%;
+        width: 50%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: large;
+    }
 
 
-/* Bloc de  contact */
-.contact{
-    display: flex;
-    padding-top:  auto;
-    padding-left: 5%;
-    padding-top: 3%;
-    margin-bottom: 4%;
-}
+    /* Div description */
+    .description{ 
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+        margin-right: 5%;  
+    }
+    .description_haut{
+        display: flex;
+    }
+    .description .Forme{
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 45%;
+        background-color: rgba(163, 163, 163, 0.089);
+    }
+    .description .MisePage_haut{
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .description .MisePage_haut .Image{
+        width: 33.33%;
+        height: 200px;
+        background-image: url("../image/Bandeau.jpg");
+        margin-left: 33.33%;
+    }
+    .description .MisePage_haut .zonetext{
+        margin-top: 2%;
+        margin-bottom: 3%;
+        display: flex;
+    }
+    .description .MisePage_haut .zonetext span{
+        text-align: left;
+        margin-left: 1%;
+    }
+    .description .MisePage_haut .zonetext p{
+        text-align: left;
+    }
+    .description .MisePage_haut .zonetext  a{
+        color: inherit;
+        text-decoration: none;
+    }
 
-/* Map */
-.localisation{
-    width: 50%;
-    height: 50%;
-}
-.map{
-    width: 100%;
-    margin-bottom: 5%;
-}
-
-/* Info */
-.Info{
-    width: 70%;
-    height: 50%;
-    margin-top: 0.5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: rgb(105, 105, 105);
-}
-.Info .titre{
-    text-align-last: center;
-    font-size: 20px;
-}
-.Info .mef{
-    padding-bottom: 2%;
-    display: flex;
-}
-.Info .icon{
-    padding-left: 4%;
-    padding-top: 3%;
-    width: 30px;
-    height: 30px;
-}
-.Info .texte{
-    text-align: left;
-    padding-left: 2%;
-}
-.Info .texte a{
-    color: inherit;
-    text-decoration: none;
-}
+    /* Bloc de  contact */
+    .contact{
+        display: flex;
+        padding-top:  auto;
+        padding-left: 5%;
+        padding-top: 3%;
+        margin-bottom: 4%;
+    }
+    /* Map */
+    .localisation{
+        width: 50%;
+        height: 50%;
+    }
+    .map{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    /* Info */
+    .Info{
+        width: 70%;
+        height: 50%;
+        margin-top: 0.5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: rgb(105, 105, 105);
+    }
+    .Info .titre{
+        text-align-last: center;
+        font-size: 20px;
+    }
+    .Info .mef{
+        padding-bottom: 2%;
+        display: flex;
+    }
+    .Info .icon{
+        padding-left: 4%;
+        padding-top: 3%;
+        width: 30px;
+        height: 30px;
+    }
+    .Info .texte{
+        text-align: left;
+        padding-left: 2%;
+    }
+    .Info .texte a{
+        color: inherit;
+        text-decoration: none;
+    }
 
 }
