@@ -1,29 +1,5 @@
 @media screen and (max-width: 767px)
 {
-/*
-body{
-    size: 100%;
-    background-color:rgb(19, 59, 105);
-}
-header{
-    size: 100%;
-    margin: 0;
-    background-color: rgba(106, 172, 230, 0.192);
-}
-.logoinstru{
-    width: 20%;
-}
-.icon{
-    width:20%;
-}
-.logoinstruadd{
-    width: 20%;
-}
-.map{
-    width: 20%;
-}
-
-*/
 body{
     size: 100%;
     overflow-x: hidden;
@@ -63,7 +39,7 @@ header{
     height: auto;
     background-image: url("../image/Bandeau1.jpg");
     background-color: rgb(0, 255, 128);
-    background-size: 100%;
+    background-size: auto;
 }
 .Logo{
     margin-top: 20%;
@@ -100,6 +76,9 @@ header{
     margin-left: 2%;
     margin-top: -2.5%;
 }
+
+
+
 
 .logoinstru{
     width: 20%;
